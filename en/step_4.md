@@ -24,7 +24,7 @@
 
 1. Click the green flag again and you should see the LED blink.
 
-1. Now add some more **set gpio** and **wait** blocks to introduce the other two lights, and make them all flash on and off:
+1. Now add some more **set gpio** blocks to introduce the other two lights, and make them all flash on and off:
 
     ![](images/scratch2-4.png)
 
