@@ -1,24 +1,24 @@
 ---
-title: یک ترتیب چراغ های ترافیکی را با خراش 2 کنترل کنید
+title: کنترل چراغ راهنمایی با Scratch 2
 hero_image: images / banner.png
-description: یاد بگیرید برای کنترل چراغ های چراغ چراغ راهنمایی و کد یک دنباله چراغ راهنمایی با استفاده از خراش 2
-theme: سرخ
+description: آموزش کنترل LEDهای چراغ راهنمایی و کدنویسی آن با استفاده از Scratch 2
+theme: قرمز
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
 curriculum: programming-0، phys-comp-0
 interests: "محاسبات فیزیکی"
-technologies: "الکترونیک، محاسبات فیزیکی، خراش"
+technologies: "الکترونیک، محاسبات فیزیکی، scratch"
 site_areas: ""
 steps:
   - 
-    title: معرفی
+    title: مقدمه
   - 
     title: آنچه شما نیاز دارید
   - 
-    title: LED ها را وصل کنید
+    title: LEDها را وصل کنید
   - 
-    title: کنترل LED ها
+    title: کنترل LEDها
   - 
     title: ترتیب چراغ راهنمایی
