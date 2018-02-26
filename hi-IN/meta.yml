@@ -1,0 +1,24 @@
+---
+title: Scratch 2 का उपयोग करते हुए एक ट्रैफिक लाइट अनुक्रम को नियंत्रित करें
+hero_image: images/banner.png
+description: ट्रैफिक लाइट एलआईडी को नियंत्रित करने और स्क्रैच 2 का उपयोग करके ट्रैफिक लाइट अनुक्रम को नियंत्रित करने के बारे में जानें
+theme: लाल
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "भौतिक कंप्यूटिंग"
+technologies: "इलेक्ट्रॉनिक्स, भौतिक कंप्यूटिंग, स्क्रैच"
+site_areas: ""
+steps:
+  - 
+    title: परिचय
+  - 
+    title: आपको किन चीजों की आवश्यकता होगी
+  - 
+    title: एलईडी को जोडे
+  - 
+    title: एल ई डी को नियंत्रित करें
+  - 
+    title: ट्रैफिक लाइट अनुक्रम
