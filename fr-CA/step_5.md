@@ -2,7 +2,7 @@
 
 1. Essayez d'allumer et d'éteindre les feux en séquence:
 
-![](images/scratch2-5.png)
+    ![](images/scratch2-5.png)
 
 1. Maintenant que vous savez comment contrôler les feux individuellement et régler les pauses entre les commandes, pouvez-vous créer une séquence de feux de circulation? Voici la séquence:
     
