@@ -1,6 +1,6 @@
 ---
 title: Besturing van een verkeerslicht met Scratch 2
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Leer een verkeerslicht te besturen en te programmeren met behulp van Scratch 2
 theme: red
 duration: 2
@@ -12,13 +12,13 @@ interests: "physical computing"
 technologies: "electronics, physical computing, python"
 site_areas: ""
 steps:
-  - 
+  -
     title: Intruductie
-  - 
+  -
     title: Wat heb je nodig
-  - 
+  -
     title: Verbind de LED's
-  - 
+  -
     title: Bestuur de LED's
-  - 
+  -
     title: Verkeerslicht volgorde
