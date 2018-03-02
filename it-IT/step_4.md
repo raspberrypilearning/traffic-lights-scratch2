@@ -3,7 +3,7 @@
 1. Apri **Scratch** dal menu principale (**Scratch**, non **Scratch 2**).
 
 2. Apri il pannello **Altri blocchi**, fai clic su **Aggiungi estensione**, e seleziona **Pi GPIO**. Dovresti quindi vedere apparire due nuovi blocchi:
-    
+
     ![](immagine/scratch2-1.png)
 
 3. Apri il pannello **Eventi** e trascina nel pannello un blocco**Quando si clicca su ⚑**.
