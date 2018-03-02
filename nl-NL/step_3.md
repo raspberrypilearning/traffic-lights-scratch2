@@ -5,5 +5,5 @@
 | LED         | GPIO-pin |
 | ----------- |:--------:|
 | Rood        |    22    |
-| Oranje/geel |    27    |
+| Oranje      |    27    |
 | Groen       |    17    |
