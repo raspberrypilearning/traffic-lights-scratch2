@@ -3,4 +3,4 @@
 ### Matériel
 
 - Raspberry Pi
-- feux de circulation pi-stop ou 3 LED et résistances
+- Feux de circulation pi-stop ou 3 LED et résistances
