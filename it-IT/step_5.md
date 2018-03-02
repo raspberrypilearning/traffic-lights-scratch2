@@ -2,7 +2,7 @@
 
 1. Prova ad accendere e spegnere le luci in sequenza:
 
-![](images/scratch2-5.png)
+    ![](images/scratch2-5.png)
 
 1. Adesso che sai come si controllano le luci individualmente, e come si mette una pausa fra un comando e l'altro, sei in grado di creare una sequenza come quella dei semafori? La sequenza è questa:
     
