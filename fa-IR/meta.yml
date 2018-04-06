@@ -1,0 +1,24 @@
+---
+title: کنترل چراغ راهنمایی با Scratch 2
+hero_image: images / banner.png
+description: آموزش کنترل LEDهای چراغ راهنمایی و کدنویسی آن با استفاده از Scratch 2
+theme: قرمز
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0، phys-comp-0
+interests: "محاسبات فیزیکی"
+technologies: "electronics, physical computing, scratch"
+site_areas: ""
+steps:
+  - 
+    title: مقدمه
+  - 
+    title: آنچه شما نیاز دارید
+  - 
+    title: LEDها را وصل کنید
+  - 
+    title: کنترل LEDها
+  - 
+    title: ترتیب چراغ راهنمایی

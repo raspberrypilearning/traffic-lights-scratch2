@@ -1,0 +1,24 @@
+---
+title: Control a Traffic Lights Sequence with Scratch 2
+hero_image: images/banner.png
+description: スクラッチ2を使用して信号機のLEDを制御し、信号機のシーケンスをコードする方法を学ぶ
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "electronics, physical computing, python"
+site_areas: ""
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: LEDを接続する
+  - 
+    title: LEDの制御
+  - 
+    title: 交通信号のシーケンス

@@ -1,0 +1,24 @@
+---
+title: Contrôler une Séquence de Feux de Circulation avec Scratch 2
+hero_image: images/banner.png
+description: Apprenez à contrôler les DELs du feu et à coder une séquence de feux de circulation avec Scratch 2
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "electronics, physical computing, scratch"
+site_areas: ""
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Ce dont vous aurez besoin
+  - 
+    title: Connectez les DELs
+  - 
+    title: Contrôlez les DELs
+  - 
+    title: Séquence de feux de circulation
