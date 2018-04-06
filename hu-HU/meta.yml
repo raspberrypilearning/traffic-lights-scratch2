@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programozás-0, fizikai-comp-0
-interests: "fizikai számítástechnika"
-technologies: "elektronika, fizikai számítástechnika, karcolás"
-site_areas: ""
-steps:
-  - 
-    title: Bevezetés
-  - 
-    title: Amire szükséged lesz
-  - 
-    title: Csatlakoztassa a LED-eket
-  - 
-    title: Irányítsa a LED-eket
-  - 
-    title: A közlekedési lámpa sorrendje
+curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
+interests: ''
+technologies: electronic-components, scratch
+site_areas: jam
+hardware: electronic-components
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Bevezetés
+-
+title: Amire szükséged lesz
+-
+title: Csatlakoztassa a LED-eket
+-
+title: Irányítsa a LED-eket
+-
+title: A közlekedési lámpa sorrendje
