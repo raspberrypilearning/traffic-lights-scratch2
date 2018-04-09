@@ -16,13 +16,8 @@ software: scratch
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: Introduzione
--
-title: Di cosa avrai bisogno
--
-title: Collegare i LED
--
-title: Controllare i LED
--
-title: Il semaforo
+- title: Introduzione
+- title: Di cosa avrai bisogno
+- title: Collegare i LED
+- title: Controllare i LED
+- title: Il semaforo
