@@ -1,33 +1,41 @@
-## Control the LEDs
+## Traffic lights sequence
 
-1. Open **Scratch 2** from the Programming menu (**Scratch 2**, not **Scratch**).
+--- task ---
 
-1. Open the **More Blocks** panel, click **Add an Extension**, and select **Pi GPIO**. You should then see two new blocks appear:
+Try turning the lights on and off in sequence:
 
-    ![](images/scratch2-1.png)
+```blocks
+when green flag clicked
+forever
+set gpio [22 v] to [output high v] :: extension
+wait [1] secs
+set gpio [27 v] to [output high v] :: extension
+wait [1] secs
+set gpio [17 v] to [output high v] :: extension
+wait [1] secs
+set gpio [22 v] to [output low v] :: extension
+wait [1] secs
+set gpio [27 v] to [output low v] :: extension
+wait [1] secs
+set gpio [17 v] to [output low v] :: extension
+wait [1] secs
+end
+```
 
-1. Open the **Events** panel and drag in a **when flag clicked** block.
+--- /task ---
 
-1. Open the **Data** panel and click **Make a Variable**. Enter the variable name **red**, drag a **set red to 0** in, dock it under the previous block and set the value to **22**.
+--- task ---
 
-1. Open the **More Blocks** panel, drag in a **set gpio to output high** block and dock it under the previous block.
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
 
-1. Return to the **Data** panel and drag in a **red** variable block and place it inside the **set gpio** block. Your code should now look like this:
+    - Green on
+    - Amber on
+    - Red on
+    - Red and amber on
+    - Green on
 
-    ![](images/scratch2-2.png)
+It's important to think about timing. How long should the lights stay on for at each stage?
 
-1. Now click the green flag to run your code. You should see the red LED light up.
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
 
-1. Now add a **wait 1 secs** block before and after turning the LED off with **set gpio red to output low**, and wrap it in a **forever** block to blink continuously:
-
-    ![](images/scratch2-3.png)
-
-1. Click the green flag again and you should see the LED blink.
-
-1. Now add some more **set gpio** blocks to introduce the other two lights, and make them all flash on and off:
-
-    ![](images/scratch2-4.png)
-
-1. Click the green flag again and you should see the three lights flash together.
-
-1. Can you change the number in **wait 1 secs** to speed up or slow down the sequence?
+--- /task ---
