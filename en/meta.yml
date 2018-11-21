@@ -5,7 +5,7 @@ listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-20
-steps: 
+steps:
 - title: Introduction
 - title: Connect the LEDs
 - title: Control the LEDs

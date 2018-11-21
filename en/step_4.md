@@ -39,4 +39,3 @@ It's important to think about timing. How long should the lights stay on for at 
 --- /task ---
 
 Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
-
