@@ -93,6 +93,6 @@ Click the green flag again and you should see the three lights flash together.
 
 --- task ---
 
-Can you change the number in `wait 1 secs`{:class="blockmorecontrol"} to speed up or slow down the sequence?
+Can you change the number in `wait 1 secs`{:class="blockcontrol"} to speed up or slow down the sequence?
 
 --- /task ---
