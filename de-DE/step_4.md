@@ -1,33 +1,41 @@
-## Die LEDs steuern
+## Traffic lights sequence
 
-1. Öffne **Scratch 2** aus dem Programmiermenü (**Scratch 2**, nicht **Scratch**).
+\--- task \---
 
-2. Öffne **Weitere Blöcke**, klicke auf **Erweiterung hinzufügen**und wähle **Pi GPIO**. Du solltest dann zwei neue Blöcke sehen:
-    
-    ![](images/scratch2-1.png)
+Try turning the lights on and off in sequence:
 
-3. Öffne **Ereignisse** im Register Skripte und ziehe einen **wenn Fahne angeklickt** Block in das rechte Fenster.
+```blocks
+when green flag clicked
+forever
+set gpio [22 v] to [output high v] :: extension
+wait [1] secs
+set gpio [27 v] to [output high v] :: extension
+wait [1] secs
+set gpio [17 v] to [output high v] :: extension
+wait [1] secs
+set gpio [22 v] to [output low v] :: extension
+wait [1] secs
+set gpio [27 v] to [output low v] :: extension
+wait [1] secs
+set gpio [17 v] to [output low v] :: extension
+wait [1] secs
+end
+```
 
-4. Öffne nun **Daten** und klicke auf **Neue Variable**. Gib den Variablennamen **rot**ein, ziehe **setze rot auf 0** hinein, docke es unter den vorherigen Block und setze den Wert auf **22**.
+\--- /task \---
 
-5. Öffne **Weitere Blöcke**. Ziehe **set gpio to output high** hinein und docke es unter den vorherigen Block.
+\--- task \---
 
-6. Zurück zu den **Daten**. Ziehe einen Variablen-Block **rot** auf den weißen Kreis im **set gpio** Block. Dein Code sollte jetzt so aussehen:
-    
-    ![](images/scratch2-2.png)
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
 
-7. Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Du solltest sehen, dass die rote LED aufleuchtet.
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
 
-8. Füge jetzt aus Steuerung ein **warte 1 Sek.** vor und nach dem Ausschalten der LED mit **set gpio rot to output low**ein. Umgib diese Befehle mit einem **wiederhole fortlaufend** Block, um kontinuierlich zu blinken:
-    
-    ![](images/scratch2-3.png)
+It's important to think about timing. How long should the lights stay on for at each stage?
 
-9. Klicke erneut auf die grüne Flagge und du solltest die LED blinken sehen.
+\--- /task \---
 
-10. Füge nun weitere **set gpio**-Blocks ein, um auch die beiden anderen LEDs blinken zu lassen:
-    
-    ![](images/scratch2-4.png)
-
-11. Klicke erneut auf die grüne Flagge und du solltest sehen, dass alle drei Lichter zusammen blinken.
-
-12. Kannst du die Zahl in **warte 1 Sek.** ändern, um die Sequenz zu beschleunigen oder zu verlangsamen?
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
