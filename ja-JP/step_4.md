@@ -1,33 +1,41 @@
-## LEDの制御
+## Traffic lights sequence
 
-1. プログラミングメニューから**Scratch 2**を開きます（**Scratch**ではなく、**Scratch 2**です）
+\--- task \---
 
-2. **その他**のパネルを開き、**拡張機能を追加**をクリックして、**Pi GPIO**を選択します。 2つの新しいブロックが表示されます。
-    
-    ![](images/scratch2-1.png)
+Try turning the lights on and off in sequence:
 
-3. **イベント**のパネルを開きます。**旗がクリックされたとき**のブロックをドラッグします。
+```blocks
+when green flag clicked
+forever
+set gpio [22 v] to [output high v] :: extension
+wait [1] secs
+set gpio [27 v] to [output high v] :: extension
+wait [1] secs
+set gpio [17 v] to [output high v] :: extension
+wait [1] secs
+set gpio [22 v] to [output low v] :: extension
+wait [1] secs
+set gpio [27 v] to [output low v] :: extension
+wait [1] secs
+set gpio [17 v] to [output low v] :: extension
+wait [1] secs
+end
+```
 
-4. **データ**のパネルを開き、 **変数を作る**のブロックをクリックします。 新しい変数のダイアログが表示されるので、変数名に**赤**と入力してOKをクリックします。 次に**赤を0に設定する**のブロックを、前のブロックの下にドッキングし、値を**22**に設定します。
+\--- /task \---
 
-5. **その他**のパネルを開きます。**set gpio to output high**のブロックを、前のブロックの下にドッキングします。
+\--- task \---
 
-6. **データ**のパネルを開きます。**赤**のブロックを**set gpio to output high**の中にドラッグします。 コードは以下のようになります：
-    
-    ![](images/scratch2-2.png)
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
 
-7. 次に緑色の旗をクリックしてコードを実行します。 赤色のLEDが点灯するはずです。
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
 
-8. 制御のパネルを開き、**1秒待つ**のブロックを **set gpio 赤 to output high 、set gpio 赤 to output low**のブロック前後に追加します。連続的に点滅させるために、**ずっと**ブロックの中に入れます。：
-    
-    ![](images/scratch2-3.png)
+It's important to think about timing. How long should the lights stay on for at each stage?
 
-9. 緑の旗をもう一度クリックすると、LEDが点滅するはずです。
+\--- /task \---
 
-10. さらにブロックを追加し**set gpio**ブロックを他の2つのライトにも適用します。それらのライトすべてをオンまたはオフできます。
-    
-    ![](images/scratch2-4.png)
-
-11. 緑色の旗をもう一度クリックすると、3つのライトが一緒に点滅するのがわかります。
-
-12. **1秒待つ**のブロックの中の数を変更できますか？シーケンスをスピードアップまたはスローダウンできます。
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
