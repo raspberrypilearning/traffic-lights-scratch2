@@ -1,33 +1,41 @@
-## Contrôlez les DELs
+## Traffic lights sequence
 
-1. Lancez **Scratch 2** à partir du menu de Programmation (**Scratch 2**, pas **Scratch**).
+\--- task \---
 
-2. Ouvrez le panneau **Ajouter blocs**, cliquez sur **Ajoute une extension**, puis sélectionnez **Pi GPIO**. Vous devriez voir deux nouveaux blocs apparaître:
-    
-    ![](images/scratch2-1.png)
+Try turning the lights on and off in sequence:
 
-3. Ouvrez le panneau **Évènements** et faites glisser un bloc **quand ⚑ pressé**.
+```blocks
+when green flag clicked
+forever
+set gpio [22 v] to [output high v] :: extension
+wait [1] secs
+set gpio [27 v] to [output high v] :: extension
+wait [1] secs
+set gpio [17 v] to [output high v] :: extension
+wait [1] secs
+set gpio [22 v] to [output low v] :: extension
+wait [1] secs
+set gpio [27 v] to [output low v] :: extension
+wait [1] secs
+set gpio [17 v] to [output low v] :: extension
+wait [1] secs
+end
+```
 
-4. Ouvrez le panneau **Données** et cliquez sur **Créer une variable**. Entrez le nom de variable **rouge**, faites glisser un **mettre rouge à 0**, ancrez-le sous le bloc précédent et mettez la valeur à **22**.
+\--- /task \---
 
-5. Ouvrez le panneau **Ajouter blocs**, faites glisser un bloc **set gpio to output high** et ancrez le sous le bloc précédent.
+\--- task \---
 
-6. Retournez au panneau **Données** et faites glisser un bloc variable **rouge** et placez-le dans le bloc **set gpio**. Votre code devrait maintenant avoir l'air de ceci:
-    
-    ![](images/scratch2-2.png)
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
 
-7. Maintenant cliquez sur le drapeau vert pour exécuter votre code. Vous devriez voir la DEL rouge s'allumer.
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
 
-8. Maintenant ajoutez un bloc **attendre 1 secondes** avant et après un bloc **set gpio rouge to output low** pour éteindre la DEL. Insérez le tout dans un bloc **répéter indéfiniement** pour qu'elle clignote continuellement:
-    
-    ![](images/scratch2-3.png)
+It's important to think about timing. How long should the lights stay on for at each stage?
 
-9. Cliquez à nouveau sur le drapeau vert et vous devriez voir la DEL clignoter.
+\--- /task \---
 
-10. Maintenant, ajoutez plus de blocs **set gpio** pour introduire les deux autres feux et les faire tous clignoter:
-    
-    ![](images/scratch2-4.png)
-
-11. Cliquez à nouveau sur le drapeau vert et vous devriez voir les trois feux clignoter ensemble.
-
-12. Pouvez-vous changer le nombre dans **attendre 1 secondes** pour accélérer ou ralentir la séquence?
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
