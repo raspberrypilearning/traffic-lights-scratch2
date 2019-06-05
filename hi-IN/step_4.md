@@ -1,33 +1,41 @@
-## एल ई डी को नियंत्रित करें
+## Traffic lights sequence
 
-1. प्रोग्रामिंग मेनू से **स्क्रैच 2** ओपन करे (**स्क्रैच 2**, **स्क्रैच**नहीं)
+\--- task \---
 
-2. **More Blocks** पैनल को खोले,**Add an Extension**पर क्लिक करें, और **Pi GPIO** चुनें तब आपको दो नए ब्लॉक दिखाई देंगे:
-    
-    ![](images/scratch2-1.png)
+Try turning the lights on and off in sequence:
 
-3. **Events** पैनल खोले और **when flag clicked** ब्लॉक को खींचें |
+```blocks
+when green flag clicked
+forever
+set gpio [22 v] to [output high v] :: extension
+wait [1] secs
+set gpio [27 v] to [output high v] :: extension
+wait [1] secs
+set gpio [17 v] to [output high v] :: extension
+wait [1] secs
+set gpio [22 v] to [output low v] :: extension
+wait [1] secs
+set gpio [27 v] to [output low v] :: extension
+wait [1] secs
+set gpio [17 v] to [output low v] :: extension
+wait [1] secs
+end
+```
 
-4. **डेटा | 123_9_1_321 खोलें | पैनल और क्लिक करें **एक चर बनाओ** वेरिएबल नाम दर्ज करें **लाल**, खींचें **लाल को 0 पर सेट करें** में, इसे पिछले ब्लॉक के तहत डॉक करें और मान सेट करें **22**</p></li> 
-    
-    - 123_8_0_321 खोलें | अधिक ब्लॉक</strong> पैनल, खींचें **में सेट करें gpio को आउटपुट उच्च** पिछले ब्लॉक के तहत इसे ब्लॉक और डॉक करें
-    
-    - 123_8_0_321 | डेटा | 123_9_1_321 पर लौटें | पैनल और खींचें **red** चर ब्लॉक और इसके अंदर स्थित करें **सेट जीपीआईओ** ब्लॉक। आपका कोड अब इस प्रकार दिखना चाहिए:
-        
-        ![](images/scratch2-2.png)
-    
-    - अब अपना कोड चलाने के लिए हरी झंडी पर क्लिक करें आपको लाल एलईडी लाइट को देखना चाहिए
-    
-    - अब जोड़ें **रुको 1 सेकंड** 123_8_2_321 | साथ में एलईडी बंद करने से पहले और बाद में ब्लॉक करें आउटपुट कम करने के लिए सेट करें gpio red</strong>, और उसे एक में लपेटें **हमेशा** लगातार ब्लिंक ब्लॉक करें:
-        
-        ![](images/scratch2-3.png)
-    
-    - हरा झंडा फिर से क्लिक करें और आपको एलईडी ब्लिंक देखना चाहिए।
-    
-    - Now add some more **set gpio** blocks to introduce the other two lights, and make them all flash on and off:
-        
-        ![](images/scratch2-4.png)
-    
-    - हरा झंडा फिर से क्लिक करें और आपको तीन रोशनी को एक साथ फ्लैश देखना चाहिए।
-    
-    - क्या आप नंबर में बदल सकते हैं **रुको 1 सेकंड** क्रम में गति या धीमा करने के लिए?</ol>
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
