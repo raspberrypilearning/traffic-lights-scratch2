@@ -1,33 +1,41 @@
-## Контролирайте светодиодите
+## Traffic lights sequence
 
-1. Отвори **Scratch 2** от менюто за програмиране (**Scratch 2**, not **Scratch**).
+\--- task \---
 
-2. Отворете **Още блокове** панел, щракнете върху **Добавяне на разширение**и изберете **Pi GPIO**. След това трябва да видите два нови блока:
-    
-    ![](images/scratch2-1.png)
+Try turning the lights on and off in sequence:
 
-3. Отворете **Събития** панел и плъзнете в **при натискане на флаг** блок.
+```blocks
+when green flag clicked
+forever
+set gpio [22 v] to [output high v] :: extension
+wait [1] secs
+set gpio [27 v] to [output high v] :: extension
+wait [1] secs
+set gpio [17 v] to [output high v] :: extension
+wait [1] secs
+set gpio [22 v] to [output low v] :: extension
+wait [1] secs
+set gpio [27 v] to [output low v] :: extension
+wait [1] secs
+set gpio [17 v] to [output low v] :: extension
+wait [1] secs
+end
+```
 
-4. Отворете **Данни** панел и кликнете **Направете променлива**. Въведете името на променливата **червено**, плъзнете a **зададете червено на 0** поставете го под предишния блок и задайте стойността на **22**.
+\--- /task \---
 
-5. Отворете **Още блокове** панел, плъзнете в **задаване на gpio на изходно ниво** блокирайте и го поставете под предишния блок.
+\--- task \---
 
-6. Върнете се до **Данни** панел и плъзнете в **червено** променлив блок и го поставете вътре в **набор gpio** блок. Кодът ви сега трябва да изглежда така:
-    
-    ![](images/scratch2-2.png)
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
 
-7. Сега кликнете върху зеления флаг, за да стартирате кода си. Трябва да видите червения светодиод.
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
 
-8. Сега добавете **чакайте 1 сек** блокирайте преди и след като изключите светодиода с **зададете gpio червено, за да излезете ниско**и го обвийте в **forever** блок да мига непрекъснато:
-    
-    ![](images/scratch2-3.png)
+It's important to think about timing. How long should the lights stay on for at each stage?
 
-9. Щракнете върху зеления флаг отново и трябва да видите LED мига.
+\--- /task \---
 
-10. Now add some more **set gpio** blocks to introduce the other two lights, and make them all flash on and off:
-    
-    ![](images/scratch2-4.png)
-
-11. Кликнете върху зеления флаг отново и трябва да видите, че трите лампички мигат заедно.
-
-12. Можете ли да промените номера в **чакайте 1 сек** да се ускори или забави последователността?
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
