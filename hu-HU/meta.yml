@@ -1,24 +1,17 @@
 ---
-title: A közlekedési lámpák szekvenciájának vezérlése karcolás nélkül 2
+title: Traffic Lights with Scratch 2
 hero_image: images / banner.png
 description: Tanuld meg, hogy irányítsd a jelzőlámpákat és kódolj egy közlekedési lámpa sorozatot a Scratch 2 segítségével
-theme: piros
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "fizikai számítástechnika"
-technologies: "elektronika, fizikai számítástechnika, karcolás"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
     title: Bevezetés
   - 
-    title: Amire szükséged lesz
+    title: Connect the LEDs
   - 
-    title: Csatlakoztassa a LED-eket
+    title: Control the LEDs
   - 
-    title: Irányítsa a LED-eket
-  - 
-    title: A közlekedési lámpa sorrendje
+    title: Traffic lights sequence
