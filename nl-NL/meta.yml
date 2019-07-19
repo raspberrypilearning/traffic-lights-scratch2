@@ -1,5 +1,5 @@
 ---
-title: Besturing van een verkeerslicht met Scratch 2
+title: Bestuur een verkeerslicht met Scratch 2
 hero_image: images / banner.png
 description: Leer een verkeerslicht te besturen en te coderen met behulp van Scratch 2
 listed: false
@@ -10,8 +10,8 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
+    title: De LEDs aansluiten
   - 
-    title: Verbind de LED's
+    title: De LED's aansturen
   - 
-    title: Bestuur de LED's
+    title: Volgorde verkeerslichten
