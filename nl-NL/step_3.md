@@ -8,19 +8,19 @@ Open **Scratch 2** uit het Start menu (**Scratch 2**, niet **Scratch**).
 
 \--- task \---
 
-Add the **Pi GPIO** extension.
+Voeg de **Pi GPIO** uitbreiding toe.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
-You should then see two new blocks appear in `More Blocks`{:class="blockmoreblocks"}:
+Je zou dan twee nieuwe blokken moeten zien verschijnen bij `Meer blokken`{:class="blockmoreblocks"}:
 
-![pi gpio blocks in ](images/scratch2-1-annotated.png)
+![pi gpio blokkken in ](images/scratch2-1-annotated.png)
 
 \--- /task \---
 
 \--- task \---
 
-Open the `Events`{:class="blockevents"} panel and drag in a `when flag clicked`{:class="blockevents"} block.
+Open het `Gebeurtenissen`{:class="blockevents"} paneel en sleep een blok `wanneer de goene vlag wordt aangeklikt`{:class="blockevents"} naar binnen.
 
 ```blocks
 wanneer op de groene vlag wordt geklikt
@@ -30,12 +30,12 @@ wanneer op de groene vlag wordt geklikt
 
 \--- task \----
 
-Open the `More Blocks`{:class="blockmoreblocks"} panel, drag in a `set gpio to output high`{:class="blockmoreblocks"} block and dock it under the previous block.
+Open het paneel `Meer blokken`{:class="blockmoreblocks"}, sleep een `set gpio to output high`{:class="blockmoreblocks"} blok onder het vorige blok.
 
-Set the gpio to number `22`.
+Zet het gpio nummer op `22`.
 
 ```blocks
-when green flag clicked
+wanneer groene vlag wordt aangeklikt
 set gpio [22 v] to [output high v] :: extension
 ```
 
@@ -49,16 +49,16 @@ Klik nu op de groene vlag om je code uit te voeren. Je zou de rode LED moeten zi
 
 \--- task \---
 
-Now add a `wait 1 secs`{:class="blockcontrol"} block before and after turning the LED off with `set gpio 22 to output low`{:class="blockmoreblocks"}, and wrap it in a **forever** block to blink continuously:
+Voeg nu een blok met `wacht 1 sec.`{:class="blockcontrol"} toe voor en na het uitschakelen van de LED met `set gpio 22 to output low`{:class="blockmoreblocks"} en voeg daaromheen een **herhaal** blok toe om continu te knipperen:
 
 ```blocks
-when green flag clicked
-forever
-set gpio [22 v] to [output high v] :: extension
-wait [1] secs
-set gpio [22 v] to [output low v] :: extension
-wait [1] secs
-end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+ set gpio [22 v] to [output high v] :: extension
+ wacht [1] sec.
+ set gpio [22 v] to [output low v] :: extension
+ wacht [1] sec.
+einde
 ```
 
 \--- /task \---
@@ -71,20 +71,20 @@ Klik nogmaals op de groene vlag en je zou de LED moeten zien knipperen.
 
 \--- task \---
 
-Now add some more `set gpio`{:class="blockmoreblocks"} blocks to introduce the other two lights on gpio 27 & 17, and make them all flash on and off:
+Voeg nu wat meer `set gpio`{:class="blockmoreblocks"} blokken toe voor gpio 27 & 17, om de andere twee lichtjes ook te laten knipperen:
 
 ```blocks
-when green flag clicked
-forever
+wanneer groene vlag wordt aangeklikt
+herhaal 
 set gpio [22 v] to [output high v] :: extension
 set gpio [27 v] to [output high v] :: extension
 set gpio [17 v] to [output high v] :: extension
-wait [1] secs
+wacht [1] sec.
 set gpio [22 v] to [output low v] :: extension
 set gpio [27 v] to [output low v] :: extension
 set gpio [17 v] to [output low v] :: extension
-wait [1] secs
-end
+wacht [1] sec.
+einde
 ```
 
 Klik nogmaals op de groene vlag en je zou alle drie LED's moeten zien knipperen.
@@ -93,6 +93,6 @@ Klik nogmaals op de groene vlag en je zou alle drie LED's moeten zien knipperen.
 
 \--- task \---
 
-Can you change the number in `wait 1 secs`{:class="blockcontrol"} to speed up or slow down the sequence?
+Kun je de tijd in `wacht 1 sec.` wijzigen om de reeks te versnellen of te vertragen?
 
 \--- /task \---
