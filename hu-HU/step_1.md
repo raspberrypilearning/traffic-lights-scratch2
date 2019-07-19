@@ -1,6 +1,6 @@
 ## Bevezetés
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Scratch 2.
+Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 segítségével.
 
 \--- collapse \---
 
