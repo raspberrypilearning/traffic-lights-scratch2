@@ -6,7 +6,7 @@ Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 se
 
 * * *
 
-## title: What you will need
+## title: Mire lesz szükséged
 
 - Raspberry Pi computer
 - LEDs: 
