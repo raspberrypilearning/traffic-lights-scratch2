@@ -5,21 +5,21 @@
 Probeer de lichten achter elkaar in en uit te schakelen:
 
 ```blocks
-when green flag clicked
-forever
-set gpio [22 v] to [output high v] :: extension
-wait [1] secs
-set gpio [27 v] to [output high v] :: extension
-wait [1] secs
-set gpio [17 v] to [output high v] :: extension
-wait [1] secs
-set gpio [22 v] to [output low v] :: extension
-wait [1] secs
-set gpio [27 v] to [output low v] :: extension
-wait [1] secs
-set gpio [17 v] to [output low v] :: extension
-wait [1] secs
-end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+ set gpio [22 v] to [output high v] :: extension
+ wacht [1] sec.
+ set gpio [27 v] to [output high v] :: extension
+ wacht [1] sec.
+ set gpio [17 v] to [output high v] :: extension
+ wacht [1] sec.
+ set gpio [22 v] to [output low v] :: extension
+ wacht [1] sec.
+ set gpio [27 v] to [output low v] :: extension
+ wacht [1] sec.
+ set gpio [17 v] to [output low v] :: extension
+ wacht [1] sec.
+einde
 ```
 
 \---/task\---
