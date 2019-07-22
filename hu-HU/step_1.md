@@ -10,8 +10,8 @@ Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 se
 
 - Raspberry Pi számítógép
 - LED-ek: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+    - pi-stop jelzőlámpa-lap
+    - vagy 3db LED és ellenállások
 
 \--- /collapse \---
 
@@ -19,10 +19,10 @@ Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 se
 
 * * *
 
-## title: What you will learn
+## title: Mit fogsz megtanulni
 
-- Controlling your Raspberry Pi's GPIO pins using Scratch 2
-- Using LEDs with your Raspberry Pi
+- a Raspberry Pi GPIO tüskék vezérlését Scratch 2 segítségével
+- a LED-ek használatát Raspberry Pi-vel
 
 \--- /collapse \---
 
@@ -30,9 +30,9 @@ Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 se
 
 * * *
 
-## title: Information for Jam organisers
+## title: Információ Jam szervezőknek
 
-You can download the complete code for this project at [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-scratch2-get).
+Letöltheted a teljes kódot a projekthez a [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-scratch2-get) linkről.
 
 \--- no-print \---
 
