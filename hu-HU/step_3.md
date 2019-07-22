@@ -12,7 +12,7 @@ Add hozzá a **Pi GPIO** extension-t.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
-You should then see two new blocks appear in `More Blocks`{:class="blockmoreblocks"}:
+Két új blokkot kell látnod a `Továbbiak`{:class="blockmoreblocks"} alatt:
 
 ![pi gpio blocks in ](images/scratch2-1-annotated.png)
 
