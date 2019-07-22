@@ -71,28 +71,28 @@ Nyomd meg a zöld zászlót újra és látnod kell a LED villogást.
 
 \--- task \---
 
-Now add some more `set gpio`{:class="blockmoreblocks"} blocks to introduce the other two lights on gpio 27 & 17, and make them all flash on and off:
+Adj még `set gpio`{:class="blockmoreblocks"} blokkokat a projekthez, kapcsold be és ki a 27 és 17-es LED-eket:
 
 ```blocks
-when green flag clicked
-forever
-set gpio [22 v] to [output high v] :: extension
-set gpio [27 v] to [output high v] :: extension
-set gpio [17 v] to [output high v] :: extension
-wait [1] secs
-set gpio [22 v] to [output low v] :: extension
-set gpio [27 v] to [output low v] :: extension
-set gpio [17 v] to [output low v] :: extension
-wait [1] secs
+⚑ -ra kattintáskor
+mindig 
+ set gpio [22 v] to [output high v] :: extension
+ set gpio [27 v] to [output high v] :: extension
+ set gpio [17 v] to [output high v] :: extension
+ várj [1] mp-et
+ set gpio [22 v] to [output low v] :: extension
+ set gpio [27 v] to [output low v] :: extension
+ set gpio [17 v] to [output low v] :: extension
+ várj [1] mp-et
 end
 ```
 
-Click the green flag again and you should see the three lights flash together.
+Nyomd meg a zöld zászlót újra és látnod kell mindhárom fényt egyszerre felvillani.
 
 \--- /task \---
 
 \--- task \---
 
-Can you change the number in `wait 1 secs`{:class="blockcontrol"} to speed up or slow down the sequence?
+Tudod úgy módosítani a számot a `várj 1 mp-et` blokkban, hogy felgyorsuljon vagy lelassuljon a szekvencia?
 
 \--- /task \---
