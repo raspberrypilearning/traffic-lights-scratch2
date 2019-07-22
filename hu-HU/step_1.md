@@ -36,7 +36,7 @@ Letöltheted a teljes kódot a projekthez a [rpf.io/p/en/traffic-lights-scratch2
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) is available. Please observe any notes on this page before printing.
+Ha ki kell nyomtatnod a projektet, elérhető [PDF verzióban](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
 
 \--- /no-print \---
 
