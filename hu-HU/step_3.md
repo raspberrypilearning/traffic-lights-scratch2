@@ -43,21 +43,21 @@ set gpio [22 v] to [output high v] :: extension
 
 \--- task \---
 
-És most nyomd meg a zöld zászlót a kódod futtatásához. You should see the red LED light up.
+És most nyomd meg a zöld zászlót a kódod futtatásához. Látnod kell ahogy a piros LED bekapcsol.
 
 \--- /task \---
 
 \--- task \---
 
-Now add a `wait 1 secs`{:class="blockcontrol"} block before and after turning the LED off with `set gpio 22 to output low`{:class="blockmoreblocks"}, and wrap it in a **forever** block to blink continuously:
+Most adj hozzá egy `set gpio 22 to output low`{:class="blockmoreblocks"} blokkot, ami kikapcsolja majd a LED-et és mindkét gpio-s blokk után egy-egy `várj 1 mp-et`{:class="blockcontrol"} blokkot, végül csomagold őket egy **mindig** blokkba a folyamatos villogáshoz:
 
 ```blocks
-when green flag clicked
-forever
+⚑ -ra kattintáskor
+mindig 
 set gpio [22 v] to [output high v] :: extension
-wait [1] secs
+várj [1] mp-et
 set gpio [22 v] to [output low v] :: extension
-wait [1] secs
+várj [1] mp-et
 end
 ```
 
@@ -65,7 +65,7 @@ end
 
 \--- task \---
 
-Click the green flag again and you should see the LED blink.
+Nyomd meg a zöld zászlót újra és látnod kell a LED villogást.
 
 \--- /task \---
 
