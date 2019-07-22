@@ -30,12 +30,12 @@ Nyisd meg az `Események`{:class="blockevents"} panelt és húzd be `⚑ -ra kat
 
 \--- task \---
 
-Open the `More Blocks`{:class="blockmoreblocks"} panel, drag in a `set gpio to output high`{:class="blockmoreblocks"} block and dock it under the previous block.
+Nyisd meg a `Továbbiak`{:class="blockmoreblocks"} panelt, húzd be a `set gpio to output high`{:class="blockmoreblocks"} blokkot and és illesztd az előző blokkhoz.
 
-Set the gpio to number `22`.
+Állítsd a gpio számát `22`.
 
 ```blocks
-when green flag clicked
+⚑ -ra kattintáskor
 set gpio [22 v] to [output high v] :: extension
 ```
 
@@ -43,7 +43,7 @@ set gpio [22 v] to [output high v] :: extension
 
 \--- task \---
 
-Now click the green flag to run your code. You should see the red LED light up.
+És most nyomd meg a zöld zászlót a kódod futtatásához. You should see the red LED light up.
 
 \--- /task \---
 
