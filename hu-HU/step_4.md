@@ -1,24 +1,24 @@
-## Traffic lights sequence
+## A közlekedési lámpa ciklusa
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Próbáld meg sorrendben ki és bekapcsolni a lámpákat:
 
 ```blocks
-when green flag clicked
-forever
-set gpio [22 v] to [output high v] :: extension
-wait [1] secs
-set gpio [27 v] to [output high v] :: extension
-wait [1] secs
-set gpio [17 v] to [output high v] :: extension
-wait [1] secs
-set gpio [22 v] to [output low v] :: extension
-wait [1] secs
-set gpio [27 v] to [output low v] :: extension
-wait [1] secs
-set gpio [17 v] to [output low v] :: extension
-wait [1] secs
+⚑ -ra kattintáskor
+mindig 
+ set gpio [22 v] to [output high v] :: extension
+ várj [1] mp-et
+ set gpio [27 v] to [output high v] :: extension
+ várj [1] mp-et
+ set gpio [17 v] to [output high v] :: extension
+ várj [1] mp-et
+ set gpio [22 v] to [output low v] :: extension
+ várj [1] mp-et
+ set gpio [27 v] to [output low v] :: extension
+ várj [1] mp-et
+ set gpio [17 v] to [output low v] :: extension
+ várj [1] mp-et
 end
 ```
 
@@ -26,13 +26,13 @@ end
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Most már tudod, hogyan kell egyedileg irányítani a fényeket, és a parancsok közötti szünetek idejét beállítani, létre tudod hozni a közlekedési lámpa ciklust? A fények sorrendje:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Zöld világít
+- Sárga világít
+- Piros világít
+- Piros és sárga világít
+- Zöld világít
 
 It's important to think about timing. How long should the lights stay on for at each stage?
 
