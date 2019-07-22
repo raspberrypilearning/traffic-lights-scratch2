@@ -1,8 +1,8 @@
-## Control the LEDs
+## Vezéreld a LED-eket
 
 \--- task \---
 
-Open **Scratch 2** from the Programming menu (**Scratch 2**, not **Scratch**).
+Nyisd meg a **Scratch 2**-t a Programozás menüből (ne a **Scratch**-t).
 
 \--- /task \---
 
