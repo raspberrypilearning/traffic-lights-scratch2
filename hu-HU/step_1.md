@@ -8,8 +8,8 @@ Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 se
 
 ## title: Mire lesz szükséged
 
-- Raspberry Pi computer
-- LEDs: 
+- Raspberry Pi számítógép
+- LED-ek: 
     - pi-stop traffic light board
     - or 3x LEDs and resistors
 
