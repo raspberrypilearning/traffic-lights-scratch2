@@ -20,10 +20,10 @@ Két új blokkot kell látnod a `Továbbiak`{:class="blockmoreblocks"} alatt:
 
 \--- task \---
 
-Open the `Events`{:class="blockevents"} panel and drag in a `when flag clicked`{:class="blockevents"} block.
+Nyisd meg az `Események`{:class="blockevents"} panelt és húzd be `⚑ -ra kattintáskor`{:class="blockevents"} blokkot.
 
 ```blocks
-when green flag clicked
+⚑ -ra kattintáskor
 ```
 
 \--- /task \---
