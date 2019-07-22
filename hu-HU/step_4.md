@@ -34,8 +34,8 @@ Most már tudod, hogyan kell egyedileg irányítani a fényeket, és a parancsok
 - Piros és sárga világít
 - Zöld világít
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Fontos, hogy gondolj az időzítésre is. Mennyi ideig kell a fényeknek világítani az egyes szakaszokban?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Miután befejezted a jelzőlámpa ciklust, hozzáadhatsz egy gombot és egy csengőt (buzzer), így készíthetsz egy interaktív változatot.
