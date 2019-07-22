@@ -8,7 +8,7 @@ Nyisd meg a **Scratch 2**-t a Programozás menüből (ne a **Scratch**-t).
 
 \--- task \---
 
-Add the **Pi GPIO** extension.
+Add hozzá a **Pi GPIO** extension-t.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
