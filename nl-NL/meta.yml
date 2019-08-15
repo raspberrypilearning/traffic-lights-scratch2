@@ -1,23 +1,13 @@
 ---
-title: Besturing van een verkeerslicht met Scratch 2
+title: Bestuur een verkeerslicht met Scratch 2
 hero_image: images/banner.png
-description: Leer een verkeerslicht te besturen en te programmeren met behulp van Scratch 2
-theme: red
-duration: 2
+description: Leer een verkeerslicht te besturen en te coderen met behulp van Scratch 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
-interests: ''
-technologies: electronic-components, scratch
-site_areas: jam
-hardware: electronic-components
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Intruductie
-- title: Wat heb je nodig
-- title: Verbind de LED's
-- title: Bestuur de LED's
-- title: Verkeerslicht volgorde
+version: 3
+last_tested: 2018/11/20
+steps:
+  - title: Inleiding
+  - title: Verbind de LED's
+  - title: Bedien de LED's
+  - title: Verkeerslichten volgorde
