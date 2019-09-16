@@ -1,8 +1,8 @@
-## Traffic lights sequence
+## Verkehrsampel Sequenz
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Versuche die Lichter der Reihe nach ein- und auszuschalten:
 
 ```blocks
 when green flag clicked
@@ -26,16 +26,16 @@ end
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Jetzt weisst du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Grün ein
+- Gelb an
+- Rot an
+- Rot und Gelb an
+- Grün an
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Es ist wichtig, über das Timing nachzudenken. Wie lange sollten die Lichter in jeder Phase eingeschaltet bleiben?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Wenn du die Ampelsequenz abgeschlossen hast, kannst du versuchen, eine Schaltfläche und einen Summer hinzuzufügen, um eine interaktive Ampel für einen Fußgängerübergang zu erstellen.
