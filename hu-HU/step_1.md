@@ -1,4 +1,4 @@
-## Bevezetés
+## Bevezető
 
 Tanuld meg hogyan vezérelhetsz LED-ekből épített jelzőlámpát Scratch 2 segítségével.
 
