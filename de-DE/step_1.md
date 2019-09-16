@@ -1,17 +1,17 @@
 ## Einleitung
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Scratch 2.
+Lerne die LEDs einer Verkehrs-Ampel steuern und einen Ampelablauf mit Scratch 2. zu programmieren
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Was du brauchen wirst
 
-- Raspberry Pi computer
+- Raspberry Pi Computer
 - LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+    - entweder das zu kaufende "PiStop - Traffic Light Add-on for Raspberry Pi"
+    - oder drei (3) LEDs in den Farben rot, gelb, grün und drei (3) Widerstände (100 Ohm)
 
 \--- /collapse \---
 
@@ -19,10 +19,10 @@ Learn to control traffic light LEDs and code a traffic lights sequence using Scr
 
 * * *
 
-## title: What you will learn
+## title: Was du lernen wirst
 
 - Controlling your Raspberry Pi's GPIO pins using Scratch 2
-- Using LEDs with your Raspberry Pi
+- Wie man LEDs zusammen mit dem Raspberry Pi steuert
 
 \--- /collapse \---
 
@@ -30,13 +30,13 @@ Learn to control traffic light LEDs and code a traffic lights sequence using Scr
 
 * * *
 
-## title: Information for Jam organisers
+## title: Informationen für Jam Organisatoren
 
 You can download the complete code for this project at [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-scratch2-get).
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) is available. Please observe any notes on this page before printing.
+Wenn du diese Projekt ausdrucken willst, kannst du diese [PDF Version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) dafür nutzen. Bitte alle Informationen auf dieser Seite berücksichtigen, bevor du diese ausdruckst; nicht dass dir am Ende etwas wichtiges fehlt.
 
 \--- /no-print \---
 
