@@ -5,13 +5,13 @@ description: Lerne die LEDs einer Verkehrs-Ampel steuern und einen Ampelablauf m
 listed: false
 copyedit: false
 version: 4
-last_tested: 2017-01-01
+last_tested: 2018-11-20
 steps:
   - 
     title: Einleitung
   - 
     title: Was du brauchen wirst
   - 
-    title: Die LEDs anschließen
+    title: Verbinde die LEDs
   - 
-    title: Die LEDs steuern
+    title: Steuere die LEDs
