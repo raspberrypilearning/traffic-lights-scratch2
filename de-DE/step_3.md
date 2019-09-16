@@ -1,8 +1,8 @@
-## Control the LEDs
+## Steuere die LEDs
 
 \--- task \---
 
-Open **Scratch 2** from the Programming menu (**Scratch 2**, not **Scratch**).
+Öffne **Scratch 2** aus dem Programmiermenü (**Scratch 2**, nicht **Scratch**).
 
 \--- /task \---
 
@@ -43,7 +43,7 @@ set gpio [22 v] to [output high v] :: extension
 
 \--- task \---
 
-Now click the green flag to run your code. You should see the red LED light up.
+Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Du solltest sehen, dass die rote LED aufleuchtet.
 
 \--- /task \---
 
@@ -65,7 +65,7 @@ end
 
 \--- task \---
 
-Click the green flag again and you should see the LED blink.
+Klicke erneut auf die grüne Flagge und du solltest die LED blinken sehen.
 
 \--- /task \---
 
@@ -87,7 +87,7 @@ wait [1] secs
 end
 ```
 
-Click the green flag again and you should see the three lights flash together.
+Klicke erneut auf die grüne Flagge und du solltest sehen, dass alle drei Lichter zusammen blinken.
 
 \--- /task \---
 
