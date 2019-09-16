@@ -1,15 +1,15 @@
-## Connect the LEDs
+## Verbinde die LEDs
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+Verbinde deine LEDs mit folgenden Pins:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED  | GPIO-Stift |
+| ---- |:----------:|
+| Rot  |     22     |
+| Gelb |     27     |
+| Grün |     17     |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![PiStop verbindet sich über GPIO-Nummer 22, 27, 17 (Raspberry-Stift 15, 13, 11) und Masse (Raspberry-Stift 9)](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
