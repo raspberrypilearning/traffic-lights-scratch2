@@ -8,7 +8,7 @@ version: 4.1
 last_tested: 2018-11-20
 steps:
   - 
-    title: Bevezetés
+    title: Bevezető
   - 
     title: Csatlakoztasd a LED-eket
   - 
