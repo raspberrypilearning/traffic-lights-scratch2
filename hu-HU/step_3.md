@@ -30,7 +30,7 @@ Nyisd meg az `Események`{:class="blockevents"} panelt és húzd be `⚑ -ra kat
 
 \--- task \---
 
-Nyisd meg a `Továbbiak`{:class="blockmoreblocks"} panelt, húzd be a `set gpio to output high`{:class="blockmoreblocks"} blokkot and és illesztd az előző blokkhoz.
+Nyisd meg a `Továbbiak`{:class="blockmoreblocks"} panelt, húzd be a `set gpio to output high`{:class="blockmoreblocks"} blokkot és illesztd az előző blokkhoz.
 
 Állítsd a gpio számát `22`.
 
