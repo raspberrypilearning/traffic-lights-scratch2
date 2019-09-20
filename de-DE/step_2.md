@@ -1,8 +1,8 @@
-## Verbinde die LEDs
+## Verbinde die LEDs (Leuchtdioden)
 
 \--- task \---
 
-Verbinde deine LEDs mit folgenden Pins:
+Verbinde deine LEDs (Leuchtdioden) wie folgt:
 
 | LED  | GPIO-Stift |
 | ---- |:----------:|
