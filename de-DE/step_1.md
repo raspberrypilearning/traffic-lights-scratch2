@@ -1,6 +1,6 @@
 ## Einleitung
 
-Lerne die LEDs einer Verkehrs-Ampel steuern und einen Ampelablauf mit Scratch 2. zu programmieren
+Lerne die drei LEDs einer Verkehrsampel zu steuern und einen Ampelablauf mit Scratch 3 zu programmieren.
 
 \--- collapse \---
 
