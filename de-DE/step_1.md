@@ -36,7 +36,7 @@ Der vollständige Code für dieses Projekt kann über folgenden Link bezogen wer
 
 \--- no-print \---
 
-Wenn du diese Projekt ausdrucken willst, kannst du diese [PDF Version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) dafür nutzen. Bitte alle Informationen auf dieser Seite berücksichtigen, bevor du diese ausdruckst; nicht dass dir am Ende etwas wichtiges fehlt.
+Wenn du diese Projekt ausdrucken willst, kannst du diese [PDF Version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) nutzen. Bitte alle Informationen auf dieser Seite berücksichtigen, bevor du diese ausdruckst; nicht dass dir am Ende etwas wichtiges fehlt.
 
 \--- /no-print \---
 
