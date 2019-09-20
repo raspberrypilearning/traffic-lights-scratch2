@@ -1,4 +1,4 @@
-## Steuere die LEDs
+## Steuere die LEDs (Leuchtdioden)
 
 \--- task \---
 
