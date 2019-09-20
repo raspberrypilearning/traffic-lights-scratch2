@@ -2,17 +2,17 @@
 
 \--- task \---
 
-Öffne **Scratch 2** aus dem Programmiermenü (**Scratch 2**, nicht **Scratch**).
+Öffne **Scratch 3** aus dem Menü Programmieren (**Scratch 3**, nicht **Scratch 2 oder Scratch 1**). Sollte Scratch 3 nicht vorhanden sein, einfach über die Funktion "Add / Remove Software" hinzufügen: Scratch 3 offline.
 
 \--- /task \---
 
 \--- task \---
 
-Add the **Pi GPIO** extension.
+Füge die **Raspberry Pi GPIO** Erweiterung hinzu.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
-You should then see two new blocks appear in `More Blocks`{:class="blockmoreblocks"}:
+Es wurde eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hinzugefügt, unter der vier zusätzliche Befehlsblöcke zu sehen sind:
 
 ![pi gpio blocks in ](images/scratch2-1-annotated.png)
 
