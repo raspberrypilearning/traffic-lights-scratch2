@@ -20,10 +20,10 @@ Es sollte nun eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hin
 
 \--- task \---
 
-Open the `Events`{:class="blockevents"} panel and drag in a `when flag clicked`{:class="blockevents"} block.
+Klick auf den Reiter `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in das Skripte Fenster.
 
 ```blocks
-when green flag clicked
+wenn die grüne Flagge angeklickt wird
 ```
 
 \--- /task \---
