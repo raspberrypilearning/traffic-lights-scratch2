@@ -32,7 +32,7 @@ wenn die grüne Flagge angeklickt wird
 
 Klick auf die Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} und ziehe den `set gpio to output high`{:class="blockmoreblocks"} Block in das Skripte Feld und hänge es unter den vorherigen Block ein.
 
-Set the gpio to number `22`.
+Setze die gpio Nummer auf `22`.
 
 ```blocks
 when green flag clicked
