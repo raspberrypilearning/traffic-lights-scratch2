@@ -12,7 +12,7 @@ Füge die **Raspberry Pi GPIO** Erweiterung hinzu.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
-Es wurde eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hinzugefügt, unter der vier zusätzliche Befehlsblöcke zu sehen sind:
+Es sollte nun eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hinzugefügt worden sein und dort sind vier neue Befehlsblöcke zu sehen:
 
 ![pi gpio blocks in ](images/scratch2-1-annotated.png)
 
