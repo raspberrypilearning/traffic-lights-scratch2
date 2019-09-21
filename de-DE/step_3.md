@@ -20,7 +20,7 @@ Es sollte nun eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hin
 
 \--- task \---
 
-Klick auf den Reiter `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in das Skripte Fenster.
+Klick auf die Gruppe `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in das Skripte Fenster.
 
 ```blocks
 wenn die grüne Flagge angeklickt wird
@@ -30,7 +30,7 @@ wenn die grüne Flagge angeklickt wird
 
 \--- task \---
 
-Open the `More Blocks`{:class="blockmoreblocks"} panel, drag in a `set gpio to output high`{:class="blockmoreblocks"} block and dock it under the previous block.
+Klick auf die Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} und ziehe den `set gpio to output high`{:class="blockmoreblocks"} Block in das Skripte Feld und hänge es unter den vorherigen Block ein.
 
 Set the gpio to number `22`.
 
