@@ -1,6 +1,6 @@
 ## Einleitung
 
-Lerne die drei LEDs einer Verkehrsampel zu steuern und einen Ampelablauf mit Scratch 3 zu programmieren.
+Lerne drei LEDs (Leuchtdioden) einer Verkehrsampel zu steuern und einen Ampelablauf mit Scratch 2 zu programmieren.
 
 \--- collapse \---
 
@@ -10,7 +10,7 @@ Lerne die drei LEDs einer Verkehrsampel zu steuern und einen Ampelablauf mit Scr
 
 - Raspberry Pi Computer
 - LEDs (Leuchtdioden): 
-    - entweder das zu kaufende "PiStop - Traffic Light Add-on for Raspberry Pi"
+    - entweder das fertige "PiStop - Traffic Light Add-on for Raspberry Pi" Board
     - oder drei (3) LEDs (Leuchtdioden) in den Farben rot, gelb, grün und drei (3) Widerstände (100 Ohm)
 
 \--- /collapse \---
@@ -21,7 +21,7 @@ Lerne die drei LEDs einer Verkehrsampel zu steuern und einen Ampelablauf mit Scr
 
 ## title: Was du lernen wirst
 
-- Die Raspberry Pi GPIO pins mit Sratch 3 steuern. GPIO steht für General-Purpose Input/Output oder übersetzt: Allzweckeingabe/-ausgabe
+- Die Raspberry Pi GPIO pins mit Sratch 2 steuern. GPIO steht für General-Purpose Input/Output oder übersetzt: Allzweckeingabe/-ausgabe
 - Wie man LEDs (Leuchtdioden) mit dem Raspberry Pi steuert
 
 \--- /collapse \---
@@ -32,7 +32,7 @@ Lerne die drei LEDs einer Verkehrsampel zu steuern und einen Ampelablauf mit Scr
 
 ## title: Informationen für Mentoren
 
-Der vollständige Code für dieses Projekt kann über folgenden Link bezogen werden [rpf.io/p/en/traffic-lights-scratch3-get](https://rpf.io/p/en/traffic-lights-scratch2-get).
+Der vollständige Code für dieses Projekt kann über folgenden Link bezogen werden [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-scratch2-get).
 
 \--- no-print \---
 
