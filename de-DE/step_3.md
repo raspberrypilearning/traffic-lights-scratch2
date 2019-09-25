@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Öffne **Scratch 3** aus dem Menü Programmieren (**Scratch 3**, nicht **Scratch 2 oder Scratch 1**). Sollte Scratch 3 nicht vorhanden sein, einfach über die Funktion "Add / Remove Software" hinzufügen: Scratch 3 offline.
+Öffne **Scratch 2** aus dem Menü Programmieren (**Scratch 2**, nicht **Scratch**). .
 
 \--- /task \---
 
