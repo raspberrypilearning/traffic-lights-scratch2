@@ -8,11 +8,11 @@
 
 \--- task \---
 
-Füge die **Raspberry Pi GPIO** Erweiterung hinzu.
+Füge die **Pi GPIO** Erweiterung hinzu.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
-Es sollte nun eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hinzugefügt worden sein und dort sind vier neue Befehlsblöcke zu sehen:
+Es sollten nun unter `Weitere Blöcke`{:class="blockmoreblocks"} zwei neue Befehlsblöcke zu sehen:
 
 ![pi gpio blocks in ](images/scratch2-1-annotated.png)
 
@@ -20,10 +20,10 @@ Es sollte nun eine neue Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} hin
 
 \--- task \---
 
-Klick auf die Gruppe `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in das Skripte Fenster.
+Klick auf die Gruppe `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in den Skript Bereich.
 
 ```blocks
-wenn die grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt wird
 ```
 
 \--- /task \---
