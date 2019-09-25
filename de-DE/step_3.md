@@ -23,14 +23,14 @@ Es sollten nun unter `Weitere Blöcke`{:class="blockmoreblocks"} zwei neue Befeh
 Klick auf die Gruppe `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in den Skript Bereich.
 
 ```blocks
-Wenn die grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt 
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Klick auf die Gruppe `Raspberry Pi GPIO`{:class="blockmoreblocks"} und ziehe den `set gpio to output high`{:class="blockmoreblocks"} Block in das Skripte Feld und hänge es unter den vorherigen Block ein.
+Klick auf die Gruppe `Weitere Blöcke`{:class="blockmoreblocks"} und ziehe den `set gpio to output high`{:class="blockmoreblocks"} Block in den Skript Bereich und hänge es unter den vorherigen Block ein.
 
 Setze die gpio Nummer auf `22`.
 
@@ -43,7 +43,7 @@ set gpio [22 v] to [output high v] :: extension
 
 \--- task \---
 
-Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Du solltest sehen, dass die rote LED aufleuchtet.
+Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Die rote LED (Leuchtdiode) sollte nun aufleuchtet.
 
 \--- /task \---
 
