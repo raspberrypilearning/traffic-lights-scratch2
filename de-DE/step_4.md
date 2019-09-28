@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Versuche die Lichter der Reihe nach ein- und auszuschalten:
+Versuche die Leuchtdioden der Reihe nach ein- und auszuschalten:
 
 ```blocks
 when green flag clicked
