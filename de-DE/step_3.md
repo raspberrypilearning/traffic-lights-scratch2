@@ -14,7 +14,7 @@ Füge die **Pi GPIO** Erweiterung hinzu.
 
 Es sollten nun unter `Weitere Blöcke`{:class="blockmoreblocks"} zwei neue Befehlsblöcke zu sehen:
 
-![pi gpio blocks in ](images/scratch2-1-annotated.png)
+![pi gpio Blöcke in ](images/scratch2-1-annotated.png)
 
 \--- /task \---
 
@@ -35,7 +35,7 @@ Klick auf die Gruppe `Weitere Blöcke`{:class="blockmoreblocks"} und ziehe den `
 Setze die gpio Nummer auf `22`.
 
 ```blocks
-when green flag clicked
+Wenn die grüne Flagge angeklickt 
 set gpio [22 v] to [output high v] :: extension
 ```
 
@@ -93,6 +93,6 @@ Klicke erneut auf die grüne Flagge und du solltest alle drei Leuchtdioden zusam
 
 \--- task \---
 
-Can you change the number in `wait 1 secs`{:class="blockcontrol"} to speed up or slow down the sequence?
+Kannst du den Wert in `warte 1 Sek.`{:class="blockcontrol"} verändern, um die Leuchtdioden schneller oder langsamer blinken zu lassen?
 
 \--- /task \---
