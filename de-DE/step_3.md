@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Öffne **Scratch 2** aus dem Menü Programmieren (**Scratch 2**, nicht **Scratch**). .
+Öffne **Scratch 2** unter dem Menüpunkt Entwicklung(**Scratch 2**, nicht **Scratch**).
 
 \--- /task \---
 
