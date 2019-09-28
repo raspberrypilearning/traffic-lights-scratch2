@@ -49,7 +49,7 @@ Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Die rote LED (Leu
 
 \--- task \---
 
-Now add a `wait 1 secs`{:class="blockcontrol"} block before and after turning the LED off with `set gpio 22 to output low`{:class="blockmoreblocks"}, and wrap it in a **forever** block to blink continuously:
+Nun hänge einen `warte 1 Sek.`{:class="blockcontrol"} Block unter die vorherigen Blöcke. Und um die Leuchtdiode auszuschalten einen `set gpio 22 to output low`{:class="blockmoreblocks"} Block, gefolgt von einem <0>warte 1 Sek.</0>{:class="blockcontrol"} Block. Umklammere das alles mit einem **wiederhole fortlaufend** Block, um alles fortlaufend blinken zu lassen:
 
 ```blocks
 when green flag clicked
