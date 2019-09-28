@@ -71,23 +71,23 @@ Klicke wieder auf die grüne Flagge und du solltest die Leuchtdiode blinken sehe
 
 \--- task \---
 
-Now add some more `set gpio`{:class="blockmoreblocks"} blocks to introduce the other two lights on gpio 27 & 17, and make them all flash on and off:
+Füge nun weitere `set gpio`{:class="blockmoreblocks"} Blöcke hinzu, um die beiden anderen Leuchtdioden an gpio 27 und 17 einzubinden, so dass alle Leuchtdioden blinken:
 
 ```blocks
-when green flag clicked
-forever
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend
 set gpio [22 v] to [output high v] :: extension
 set gpio [27 v] to [output high v] :: extension
 set gpio [17 v] to [output high v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [22 v] to [output low v] :: extension
 set gpio [27 v] to [output low v] :: extension
 set gpio [17 v] to [output low v] :: extension
-wait [1] secs
-end
+warte [1] Sek.
+ende
 ```
 
-Klicke erneut auf die grüne Flagge und du solltest sehen, dass alle drei Lichter zusammen blinken.
+Klicke erneut auf die grüne Flagge und du solltest alle drei Leuchtdioden zusammen blinken sehen.
 
 \--- /task \---
 
