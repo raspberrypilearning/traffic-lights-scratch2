@@ -52,20 +52,20 @@ Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Die rote LED (Leu
 Nun hänge einen `warte 1 Sek.`{:class="blockcontrol"} Block unter die vorherigen Blöcke. Und um die Leuchtdiode auszuschalten einen `set gpio 22 to output low`{:class="blockmoreblocks"} Block, gefolgt von einem <0>warte 1 Sek.</0>{:class="blockcontrol"} Block. Umklammere das alles mit einem **wiederhole fortlaufend** Block, um alles fortlaufend blinken zu lassen:
 
 ```blocks
-when green flag clicked
-forever
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend
 set gpio [22 v] to [output high v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [22 v] to [output low v] :: extension
-wait [1] secs
-end
+warte [1] Sek.
+ende
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Klicke erneut auf die grüne Flagge und du solltest die LED blinken sehen.
+Klicke wieder auf die grüne Flagge und du solltest die Leuchtdiode blinken sehen.
 
 \--- /task \---
 
