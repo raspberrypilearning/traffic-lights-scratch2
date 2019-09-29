@@ -1,40 +1,40 @@
-## Verkehrsampel-Ablauf
+## Eine Verkehrsampel steuern
 
 \--- task \---
 
 Versuche die Leuchtdioden der Reihe nach ein- und auszuschalten:
 
 ```blocks
-when green flag clicked
-forever
+Wenn die grüne Flagge angecklickt
+wiederhole fortlaufend
 set gpio [22 v] to [output high v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [27 v] to [output high v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [17 v] to [output high v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [22 v] to [output low v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [27 v] to [output low v] :: extension
-wait [1] secs
+warte [1] Sek.
 set gpio [17 v] to [output low v] :: extension
-wait [1] secs
-end
+warte [1] Sek.
+ende
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Jetzt weisst du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
+Jetzt weisst du, wie man die Leuchtdioden individuell steuert und Pausen zwischen den Befehlen einstellt. Kannst du die Abfolge einer Verkehrsamel zusammenstellen? Die Reihenfolge ist:
 
-- Grün ein
-- Gelb an
 - Rot an
 - Rot und Gelb an
 - Grün an
+- Gelb an
+- Rot an
 
-Es ist wichtig, über das Timing nachzudenken. Wie lange sollten die Lichter in jeder Phase eingeschaltet bleiben?
+Um eine gute Verkehrsampel zu bekommen, ist es wichtig darüber nachzudenken, wie lange die einzelnen Leutdioden an sein sollen. Wie lange sollten die Leutdioden in jeder Phase eingeschaltet bleiben?
 
 \--- /task \---
 
