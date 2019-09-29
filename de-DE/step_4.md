@@ -38,4 +38,4 @@ Um eine gute Verkehrsampel zu bekommen, ist es wichtig darüber nachzudenken, wi
 
 \--- /task \---
 
-Wenn du die Ampelsequenz abgeschlossen hast, kannst du versuchen, eine Schaltfläche und einen Summer hinzuzufügen, um eine interaktive Ampel für einen Fußgängerübergang zu erstellen.
+Sobald du die Steuerung der Verkehrsampel abgeschlossen hast, kannst du versuchen, einen Taster und einen Summer hinzuzufügen, um eine interaktive Fußgängerampel zu erstellen.
