@@ -1,4 +1,4 @@
-## Die Verkehrsampel Folge
+## Verkehrsampel-Ablauf
 
 \--- task \---
 
