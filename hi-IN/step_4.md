@@ -1,8 +1,8 @@
-## Traffic lights sequence
+## ट्रैफिक लाइट अनुक्रम
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+एल. ई. डी. को क्रमानुसार चालू और बंद करने का प्रयास करें:
 
 ```blocks
 when green flag clicked
@@ -26,16 +26,16 @@ end
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+अब आप जानते हैं कि एल. ई. डी. को अलग-अलग कैसे नियंत्रित किया जा सकता है, और आदेशों के बीच अंतराल कैसे उत्पन्न किया जाता है, क्या आप ट्रैफिक लाइट का अनुक्रम बना सकते हैं? अनुक्रम इस प्रकार है:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- हरा चालू (Green on)
+- पीली चालू (Amber on)
+- लाल चालू (Red on)
+- लाल और पीली चालू (Red and amber on)
+- हरा चालू (Green on)
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+समय के बारे में सोचना महत्वपूर्ण है। प्रत्येक चरण में रोशनी कितनी देर तक चालू रेहनी चाहिए?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+ट्रैफिक लाइट अनुक्रम पूरा करने के बाद, आप एक पैदल यात्री क्रॉसिंग के लिए इंटरैक्टिव ट्रैफिक लाइट बनाने के लिए बटन और बजर जोड़ने का प्रयास कर सकते हैं।
