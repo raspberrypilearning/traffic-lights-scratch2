@@ -12,7 +12,7 @@ Füge die **Pi GPIO** Erweiterung hinzu.
 
 [[[rpi-scratch-add-pi-gpio]]]
 
-Es sollten nun unter `Weitere Blöcke`{:class="blockmoreblocks"} zwei neue Befehlsblöcke zu sehen:
+Es sollten nun unter `Weitere Blöcke`{:class="blockmoreblocks"} zwei neue Befehlsblöcke zu sehen sein:
 
 ![pi gpio Blöcke in ](images/scratch2-1-annotated.png)
 
@@ -20,10 +20,10 @@ Es sollten nun unter `Weitere Blöcke`{:class="blockmoreblocks"} zwei neue Befeh
 
 \--- task \---
 
-Klick auf die Gruppe `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt wird`{:class="blockevents"} in den Skript Bereich.
+Klick auf die Gruppe `Ereignisse`{:class="blockevents"} und ziehe den Block `Wenn die grüne Flagge angeklickt ist`{:class="blockevents"} in den Skript Bereich.
 
 ```blocks
-Wenn die grüne Flagge angeklickt 
+Wenn die grüne Flagge angeklickt ist
 ```
 
 \--- /task \---
@@ -35,7 +35,7 @@ Klick auf die Gruppe `Weitere Blöcke`{:class="blockmoreblocks"} und ziehe den `
 Setze die gpio Nummer auf `22`.
 
 ```blocks
-Wenn die grüne Flagge angeklickt 
+Wenn die grüne Flagge angeklickt ist
 set gpio [22 v] to [output high v] :: extension
 ```
 
