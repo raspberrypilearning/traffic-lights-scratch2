@@ -6,7 +6,7 @@ Leer een verkeerslicht te besturen en te programmeren met behulp van Scratch 2.
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 - Raspberry Pi computer
 - LEDs: 
