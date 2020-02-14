@@ -1,15 +1,15 @@
-## Connect the LEDs
+## एल. ई. डी. को जोड़े
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+अपने एल. ई. डी. को निम्नलिखित पिन से कनेक्ट करें:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| एल. ई. डी. | GPIO पिन |
+| ---------- |:--------:|
+| लाल        |    22    |
+| पीला       |    27    |
+| हरा        |    17    |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![pi stop gpio 22,27,17 और ground से जुड़ा हुआ है](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
