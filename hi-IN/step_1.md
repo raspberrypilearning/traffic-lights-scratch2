@@ -1,17 +1,17 @@
-## परिचय
+## भूमिका
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Scratch 2.
+ट्रैफिक लाइट एल. ई. डी. को नियंत्रित करने और Scratch 2. का उपयोग करके ट्रैफिक लाइट अनुक्रम को नियंत्रित करने के बारे में जानें
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## शीर्षक: आपको किन चीजों की आवश्यकता होगी
 
 - Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- एल. ई. डी 
+    - pi-stop ट्रैफिक लाइट बोर्ड
+    - या 3× एल. ई. डी और प्रतिरोधक
 
 \--- /collapse \---
 
@@ -19,10 +19,10 @@ Learn to control traffic light LEDs and code a traffic lights sequence using Scr
 
 * * *
 
-## title: What you will learn
+## शीर्षक: आप क्या सीखेंगे
 
-- Controlling your Raspberry Pi's GPIO pins using Scratch 2
-- Using LEDs with your Raspberry Pi
+- स्क्रैच 2 का उपयोग करके अपने Raspberry Pi's के GPIO पिन को नियंत्रित करना
+- अपने Raspberry pi के साथ एल. ई. डी का उपयोग करना
 
 \--- /collapse \---
 
@@ -30,13 +30,13 @@ Learn to control traffic light LEDs and code a traffic lights sequence using Scr
 
 * * *
 
-## title: Information for Jam organisers
+## title: Jam आयोजकों के लिए सूचना
 
-You can download the complete code for this project at [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-scratch2-get).
+आप इस प्रोजेक्ट का पूरा कोड  rpf.io/p/en/traffic-lights-scratch2-get </ 0> पर डाउनलोड कर सकते हैं।</p> 
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) is available. Please observe any notes on this page before printing.
+यदि आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो [ पीडीएफ संस्करण ](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Scratch2.pdf) उपलब्ध है। कृपया मुद्रण से पहले इस पृष्ठ पर कोई भी नोट देखें।
 
 \--- /no-print \---
 
