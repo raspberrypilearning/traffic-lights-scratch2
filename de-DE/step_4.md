@@ -26,7 +26,7 @@ ende
 
 \--- task \---
 
-Jetzt weisst du, wie man die Leuchtdioden individuell steuert und Pausen zwischen den Befehlen einstellt. Kannst du die Abfolge einer Verkehrsamel zusammenstellen? Die Reihenfolge ist:
+Jetzt weisst du, wie man die Leuchtdioden individuell steuert und Pausen zwischen den Befehlen einstellt. Kannst du die Abfolge einer Verkehrsampel zusammenstellen? Die Reihenfolge ist:
 
 - Rot an
 - Rot und Gelb an
