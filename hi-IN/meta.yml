@@ -1,5 +1,5 @@
 ---
-title: Traffic Lights with Scratch 2
+title: श्क्रैच 2 के साथ ट्रैफिक लाइट
 hero_image: images/banner.png
 description: ट्रैफिक लाइट एल. ई. डी. को नियंत्रित करने और Scratch 2 का उपयोग करके ट्रैफिक लाइट अनुक्रम को नियंत्रित करने के बारे में जानें
 listed: false
@@ -10,8 +10,8 @@ steps:
   - 
     title: भूमिका
   - 
-    title: Connect the LEDs
+    title: एल. ई. डी. को जोड़े
   - 
-    title: Control the LEDs
+    title: एल. ई. डी. को नियंत्रित करें
   - 
-    title: Traffic lights sequence
+    title: ट्रैफिक लाइट अनुक्रम
