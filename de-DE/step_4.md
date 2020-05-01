@@ -1,55 +1,33 @@
-## Eine Verkehrsampel steuern
+## Die LEDs steuern
 
---- task ---
+1. Öffne **Scratch 2** aus dem Programmiermenü (**Scratch 2**, nicht **Scratch**).
 
-Versuche die Leuchtdioden der Reihe nach ein- und auszuschalten:
+2. Öffne **Weitere Blöcke**, klicke auf **Erweiterung hinzufügen**und wähle **Pi GPIO**. Du solltest dann zwei neue Blöcke sehen:
+    
+    ![](images/scratch2-1.png)
 
-```blocks
-Wenn die grüne Flagge angecklickt
-wiederhole fortlaufend
-set gpio [22 v] to [output high v] :: extension
-warte [1] Sek.
-set gpio [27 v] to [output high v] :: extension
-warte [1] Sek.
-set gpio [17 v] to [output high v] :: extension
-warte [1] Sek.
-set gpio [22 v] to [output low v] :: extension
-warte [1] Sek.
-set gpio [27 v] to [output low v] :: extension
-warte [1] Sek.
-set gpio [17 v] to [output low v] :: extension
-warte [1] Sek.
-ende
-```
+3. Öffne **Ereignisse** im Register Skripte und ziehe einen **wenn Fahne angeklickt** Block in das rechte Fenster.
 
---- /task ---
+4. Öffne nun **Daten** und klicke auf **Neue Variable**. Gib den Variablennamen **rot**ein, ziehe **setze rot auf 0** hinein, docke es unter den vorherigen Block und setze den Wert auf **22**.
 
---- task ---
+5. Öffne **Weitere Blöcke**. Ziehe **set gpio to output high** hinein und docke es unter den vorherigen Block.
 
-Jetzt weisst du, wie man die Leuchtdioden individuell steuert und Pausen zwischen den Befehlen einstellt. Kannst du die Abfolge einer Verkehrsampel zusammenstellen? Die Reihenfolge ist:
+6. Zurück zu den **Daten**. Ziehe einen Variablen-Block **rot** auf den weißen Kreis im **set gpio** Block. Dein Code sollte jetzt so aussehen:
+    
+    ![](images/scratch2-2.png)
 
-- Rot an
-- Rot und Gelb an
-- Grün an
-- Gelb an
-- Rot an
+7. Klicke jetzt auf die grüne Flagge, um deinen Code zu starten. Du solltest sehen, dass die rote LED aufleuchtet.
 
-Um eine gute Verkehrsampel zu bekommen, ist es wichtig darüber nachzudenken, wie lange die einzelnen Leutdioden an sein sollen. Wie lange sollten die Leutdioden in jeder Phase eingeschaltet bleiben?
+8. Füge jetzt aus Steuerung ein **warte 1 Sek.** vor und nach dem Ausschalten der LED mit **set gpio rot to output low**ein. Umgib diese Befehle mit einem **wiederhole fortlaufend** Block, um kontinuierlich zu blinken:
+    
+    ![](images/scratch2-3.png)
 
---- /task ---
+9. Klicke erneut auf die grüne Flagge und du solltest die LED blinken sehen.
 
-Sobald du die Steuerung der Verkehrsampel abgeschlossen hast, kannst du versuchen, einen Taster und einen Summer hinzuzufügen, um eine interaktive Fußgängerampel zu erstellen.
+10. Füge nun weitere **set gpio**-Blocks ein, um auch die beiden anderen LEDs blinken zu lassen:
+    
+    ![](images/scratch2-4.png)
 
+11. Klicke erneut auf die grüne Flagge und du solltest sehen, dass alle drei Lichter zusammen blinken.
 
-***
-Dieses Projekt wurde von freiwilligen Helfern übersetzt:
-
-Holger Wittmann
-
-Sandra Gavin
-
-Karl Schuh
-
-Helmut Schlimper
-
-Dank freiwilliger Helfer können wir Menschen auf der ganzen Welt die Möglichkeit geben, in ihrer eigenen Sprache zu lernen. Du kannst uns helfen, mehr Menschen zu erreichen, indem Du dich freiwillig zum Übersetzen meldest - weitere Informationen unter [rpf.io/translate](https://rpf.io/translate).
+12. Kannst du die Zahl in **warte 1 Sek.** ändern, um die Sequenz zu beschleunigen oder zu verlangsamen?

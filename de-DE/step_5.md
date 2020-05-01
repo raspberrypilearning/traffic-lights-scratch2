@@ -2,7 +2,7 @@
 
 1. Versuche die Lichter der Reihe nach ein- und auszuschalten:
 
-![](images/scratch2-5.png)
+    ![](images/scratch2-5.png)
 
 1. Jetzt weißt du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
     
