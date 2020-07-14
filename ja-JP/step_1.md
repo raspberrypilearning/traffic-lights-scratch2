@@ -1,6 +1,6 @@
 ## はじめに
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Scratch 2.
+スクラッチ2を使って、信号機のLEDを制御したり、シーケンスをコーディングする方法を学びます。
 
 \--- collapse \---
 
