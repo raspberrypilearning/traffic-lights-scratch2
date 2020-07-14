@@ -1,6 +1,6 @@
 ## Introduzione
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Scratch 2.
+Impara a controllare un semaforo a LED e a programmare una sequenza di luci con Scratch 2
 
 \--- collapse \---
 
