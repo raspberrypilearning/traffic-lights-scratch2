@@ -1,4 +1,4 @@
-## Traffic lights sequence
+## Contrôlez les DELs
 
 \--- task \---
 
