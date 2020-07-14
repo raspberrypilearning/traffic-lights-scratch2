@@ -1,25 +1,11 @@
-## Traffic lights sequence
+## LEDの制御
 
 \--- task \---
 
 Try turning the lights on and off in sequence:
 
 ```blocks
-when green flag clicked
-forever
-set gpio [22 v] to [output high v] :: extension
-wait [1] secs
-set gpio [27 v] to [output high v] :: extension
-wait [1] secs
-set gpio [17 v] to [output high v] :: extension
-wait [1] secs
-set gpio [22 v] to [output low v] :: extension
-wait [1] secs
-set gpio [27 v] to [output low v] :: extension
-wait [1] secs
-set gpio [17 v] to [output low v] :: extension
-wait [1] secs
-end
+制御のパネルを開き、<strong>1秒待つ</strong>のブロックを <strong>set gpio 赤 to output high 、set gpio 赤 to output low</strong>のブロック前後に追加します。連続的に点滅させるために、<strong>ずっと</strong>ブロックの中に入れます。：
 ```
 
 \--- /task \---
