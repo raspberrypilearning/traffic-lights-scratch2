@@ -1,4 +1,4 @@
-## Traffic lights sequence
+## Contrôler les LED
 
 \--- task \---
 
