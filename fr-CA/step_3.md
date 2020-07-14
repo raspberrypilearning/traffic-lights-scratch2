@@ -1,4 +1,4 @@
-## Control the LEDs
+## Connectez les DELs
 
 \--- task \---
 
