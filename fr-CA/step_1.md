@@ -1,6 +1,6 @@
 ## Introduction
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Scratch 2.
+Apprenez à contrôler les DELs du feu et à coder une séquence de feux de circulation avec Scratch 2
 
 \--- collapse \---
 
