@@ -1,4 +1,4 @@
-## Control the LEDs
+## Collegare i LED
 
 \--- task \---
 
